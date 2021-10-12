@@ -1,0 +1,188 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.cab{
+	width:105%;
+	font-size: 2.5rem;
+	background-color: #EBF4F3;
+	margin-bottom: 70px;
+	padding: 5px;
+	display: inline-flex;
+}
+.logo{
+	width: 80%;
+	margin-left: 50px;
+}
+
+ .socialmidia{ 
+
+	width: 3rem;
+	
+	display:inline-flex;
+	padding-top: 30px;
+	
+	
+}
+.algarismo {
+	
+	justify-content: center;
+
+	margin-bottom: 250px;
+}
+main{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	background-color: #ECECEC;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	}
+input{
+	width: 90%;
+	height: 60px;
+	margin-top: 15%;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	color: #cococo;
+	display:inline-flex;
+	}
+.result{
+	width: 90%;
+	margin-top: 15px;
+	}
+
+.btn{
+	width:90%;
+	height: 60px;
+	margin-top: 20px;
+	margin-left:3px;
+	border-radius: 5px;
+	font-size: 2em;
+	background-color: #002927;
+	color: #c0c0c0;
+	cursor: pointer;
+	}
+.btn:hover{
+	background-color:#EBF4F3; 
+	}
+
+footer{
+	width: 105%;
+	margin-top: 35%;
+	font-size: arial,bold,helvetica;
+	color: #c0c0c0;
+	display: flex;
+	background-color: #002927;
+	}
+
+.COP{
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	}
+	
+
+@media (max-width: 700px){
+
+.cab{
+	width:95%;
+	top: 10px;
+	}
+.logo{
+	width:40%;
+	font-size: 1.5rem;
+	margin-top: 10px;
+	
+	}
+.socialmidia{ 
+
+	width: 1.5rem;
+	
+	display: inline-flex;
+
+	}
+main{
+	width: 100%;
+	height: 500px;
+	padding: 30px;
+	}
+
+.algarismo, .result, .btn{
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	
+}
+.btn{
+	width: 60%;
+	top: 30px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+footer{
+	width: 100%;
+	margin-top: 60%;
+	}
+	}
+@media (max-width: 900px){
+
+.cab{
+	width:100%;
+	}
+.logo{
+	width:50%;
+	left: 30px;
+	}
+.socialmidia{ 
+	width: 2rem;
+	display: inline;
+	}
+main{
+	width: 100%;
+	padding: 0;
+	}
+input, .btn{
+	width: 90%;
+	}
+	footer{
+	width: 100%;
+	}
+
+@media (max-width: 2000px){
+
+.cab{
+	width:105%;
+	display: inline-flex;
+	}
+.logo{
+	width:70%;
+	left: 15px;
+	font-size: 1.5rem;
+	display:flex ;
+	}
+.socialmidia{ 
+
+	width: 2rem;
+	display: inline-flex;
+	margin-left: 50px;
+
+	}
+main{
+	width: 60%;
+	display: block;
+	justify-content: left;
+}
+
+input, .btn, .result {
+	width: 85%;
+	margin-top: 20%;
+	margin-left: 15px;
+}
+footer{
+	width: 105%;
+	margin-top: 35%;
+	}
